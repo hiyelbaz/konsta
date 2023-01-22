@@ -21,6 +21,8 @@ interface KonstaProviderProps {
    * @default true
    */
   touchRipple?: boolean;
+  
+  children?: React.ReactNode;
 }
 declare const KonstaProvider: React.FunctionComponent<KonstaProviderProps>;
 
